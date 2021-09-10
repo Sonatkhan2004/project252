@@ -1,0 +1,90 @@
+
+h1{
+	text-align: center;
+	font-family: 'Allison', cursive;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	color: blue;
+}
+.green{
+	width: 700px;
+	height: 400px;
+	background-color: green;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+a{
+	text-decoration: none;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-color: red;
+	position: absolute;
+	top: 26%;
+	left: 202px;
+
+}
+img{
+	font-size: 30px;
+	width: 200px;
+	position: fixed;
+	right: 0px;
+	top: 50%;
+	right: -100px;
+	transition: 1s;
+}
+img:hover{
+	right: -1px;
+	cursor: pointer;
+
+}
+.head{
+	width: 100%;
+	text-align: center;
+	
+	background-color: gray;
+	margin: 80px 0px;
+}
+.socal-icone li{
+	list-style-type: none;
+	display: inline-block;
+	
+
+}
+
+.socal-icone li a .fa{
+	display: block;
+	width: 80px;
+	height: 80px;
+	
+	line-height: 80px;
+	border-radius: 100%;
+	margin: 0px 15px;
+    font-size: 30px;
+    transition: 1s;
+    color: white;
+}
+.socal-icone li a .fa-facebook:hover{
+	background-color: #18AAFD;
+	color: #777;
+
+}
+.socal-icone li a .fa-twitter-square:hover{
+	background-color: #1C9BE9;
+	color: #777;
+
+}
+.socal-icone li a .fa-behance:hover{
+	background-color: #0059F7;
+	
+
+}
+.socal-icone li a .fa-youtube:hover{
+	background-color: red;
+	color: #777;
+
+}
